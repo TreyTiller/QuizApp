@@ -1,0 +1,27 @@
+header {
+    border: 1px solid black;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+section.start-screen {
+    border: 3px solid black;
+    padding: 10px;
+    margin-top: 100px;
+    margin-bottom: 150px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.answerQuestionForm {
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+}
+
+
+

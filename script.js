@@ -5,6 +5,11 @@ let score = 0;
 
 function startQuiz() {
     //creates a functional start button on the home page that removes that page
+    console.log('startQuiz function test');
+    $('.quiz-start').on('click', '.start-button', function (event) {
+        $('.quiz-start').remove();
+        $('.questionAnswerForm').css('display', 'block');
+    });
 };
 
 function generateQuestion() {

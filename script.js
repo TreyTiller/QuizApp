@@ -133,11 +133,45 @@ function renderNextQuestion() {
 
 function renderResults() {
     //when quiz is over this is the html for the page
+    console.log('renderResults function test');
+    if (score >= 5) {
+        $('.questionAnswerForm').html(`
+            <div class='results-feedback'>
+                <h3></h3>
+                <img/>
+                <p>You got ${score} / 6</p>
+                <p>Niel Armstrong... Is that you? Look at you go you space explorer!</p>
+                <button class="restart-button">Restart Quiz</button>
+            </div>
+        `);
+    } else if (score > 3 && score < 5) {
+        $('.questionAnswerForm').html(`
+            <div class='results-feedback'>
+                <h3></h3>
+                <img/>
+                <p>You got ${score} / 6</p>
+                <p>You skimmed through cadet... you might need some more training.</p>
+                <button class="restart-button">Restart Quiz</button>
+            </div>
+        `);
+    } else {
+        $('.questionAnswerForm').html(`
+            <div class='results-feedback'>
+                <h3></h3>
+                <img/>
+                <p>You got ${score} / 6</p>
+                <p>Maybe steer clear of the final frontier.</p>
+                <button class="restart-button">Relaunch</button>
+            </div>
+        `);
+    }
 };
 
 function restartQuiz() {
     //user can click to restart the quiz
-
+    $('.main').on('click', '.restart-button', function (event) {
+        location.reload();
+    });
 };
 
 function createQuiz () {

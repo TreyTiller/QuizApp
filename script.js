@@ -78,11 +78,35 @@ function userSelectAnswer() {
 function ifWrongAnswer() {
     //user feedback for correct answer
     console.log('ifWrongAnswer function test');
+    let correctAnswer=`${STORE[questionNumber].correctAnswer}`;
+    $('.questionAnswerForm').html(`
+        <div class='correct-feedback'>
+            <div class='icon'>
+                <img src="${STORE[questionNumber].icon}" alt="${STORE[questionNumber].alt}"/>
+            </div>
+            <div class='correct-answer'>
+                <h2>Huston we have a problem</h2>
+                <h3>${STORE[questionNumber].correctAnswer}</h3>
+            <button type=button class="nextButton">Next</button>
+        </div>`);
+    
+    
 };
 
 function ifRightAnswer() {
     //user feedback for wrong answer
     console.log('ifRightAsnwer function test');
+    let correctAnswer=`${STORE[questionNumber].correctAnswer}`;
+    $('.questionAnswerForm').html(`
+        <div class='correct-feedback'>
+            <div class='icon'>
+                <img src="${STORE[questionNumber].icon}" alt="${STORE[questionNumber].alt}"/>
+            </div>
+            <div class='correct-answer'>
+                <h2>Affrimative</h2>
+                <h3>${STORE[questionNumber].correctAnswer}</h3>
+            <button type=button class="nextButton">Next</button>
+        </div>`);
 };
 
 function renderNextQuestion() {

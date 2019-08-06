@@ -97,6 +97,69 @@ Images and Icons Needed:
             - Meteor icon
             
                 
+
+
+
+
+
+
+
+
+                <!--<section class='answerQuestionForm'>
+            <form class= 'question'>
+                <h3>1. Which way does Earth spin?</h3>
+                <ul>
+                    <li><input type='radio' name='q1' value='a'/>East to West</li>
+                    <li><input type='radio' name='q1' value='b'/>West to East</li>
+                </ul>
+                <button type="button" class="submit">Submit</button>
+            </form>
+
+            <form class= 'question'>
+                <h3>2. Right now which planet is further from the sun?</h3>
+                <ul>
+                    <li><input type='radio' name='q1' value='a'/>Pluto</li>
+                    <li><input type='radio' name='q1' value='b'/>Neptune</li>
+                </ul>
+                <button type="button" class="submit">Submit</button>
+            </form>
+
+            <form class= 'question'>
+                <h3>3. Which year was the first exoplanet discovered?</h3>
+                <ul>
+                    <li><input type='radio' name='q1' value='a'/>2010</li>
+                    <li><input type='radio' name='q1' value='b'/>1995</li>
+                </ul>
+                <button type="button" class="submit">Submit</button>
+            </form>
+
+            <form class= 'question'>
+                <h3>4. Which galaxy is further away from Earth?</h3>
+                <ul>
+                    <li><input type='radio' name='q1' value='a'/>Andromeda</li>
+                    <li><input type='radio' name='q1' value='b'/>Crab Nebula</li>
+                </ul>
+                <button type="button" class="submit">Submit</button>
+            </form>
+
+            <form class= 'question'>
+                <h3>5. Which year did the Opportunity rover land on Mars?</h3>
+                <ul>
+                    <li><input type='radio' name='q1' value='a'/>1998</li>
+                    <li><input type='radio' name='q1' value='b'/>2004</li>
+                </ul>
+                <button type="button" class="submit">Submit</button>
+            </form>
+
+            <form class= 'question'>
+                <h3>6.When will the Voyager 1 spacecraft pass by another star system?</h3>
+                <ul>
+                    <li><input type='radio' name='q1' value='a'/>40,000 years</li>
+                    <li><input type='radio' name='q1' value='b'/>400 years</li>
+                </ul>
+                <button type="button" class="submit">Submit</button>
+            </form> 
+        </section>-->
         
 
 

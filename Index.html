@@ -15,7 +15,9 @@
 <body>
     <header role='banner' class='banner'>
         <div class='logo-container'>
-            <img src="" alt="">
+            <a href=''>
+                <img src="" alt="">
+            </a>
         </div>
         <div class='quiz-info'>
             <ul>
@@ -23,47 +25,22 @@
                 <li>Score: <span class="score">0</span></li>
             </ul>
         </div>
-        <div class='background'>
-            <img src="" alt="">
-        </div>
     </header>
 
     <main role='main-content' class='main'>
 
-        <section class='start-screen'>
+        <div class='quiz-start'>
             <h1>Ready to test your intergallactic skills?</h1>
             <h2>3...2...1...</h2>
-            <button type="button" class="startButton">Blast Off!</button>
-        </section>
+            <button type="button" class="start-button">Blast Off!</button>
+        </div>
 
-        <section class='answerQuestionForm'>
-            <form>
-                <h3 class='question'>1. Which way does Earth spin?</h3>
-                <input type='radio' name='q1' value='East'>East to West<br>
-                <input type='radio' name='q1' value='West'>West to East<br>
-
-                <h3 class='question'>2. Right now which planet is further from the sun?</h3>
-                <input type='radio' name='q2' value='Pluto'>Pluto<br>
-                <input type='radio' name='q2' value='Neptune'>Neptune<br>
-
-                <h3 class='question'>3. Which year was the first exoplanet discovered?</h3>
-                <input type='radio' name='q3' value='2010'>2010<br>
-                <input type='radio' name='q3' value='1995'>1995<br>
-
-                <h3 class='question'>4. Which galaxy is further away from Earth?</h3>
-                <input type='radio' name='q4' value='Crab'>Crab Nebula<br>
-                <input type='radio' name='q4' value='Andromeda'>Andromeda<br>
-
-                <h3 class='question'>5. Which year did the Opportunity rover land on Mars?</h3>
-                <input type='radio' name='q5' value='2004'>2004<br>
-                <input type='radio' name='q5' value='1998'>1998<br>
-
-                <h3 class='question'>6. When will the Voyager 1 spacecraft pass by another star system?</h3>
-                <input type='radio' name='q6' value='400'>400 years<br>
-                <input type='radio' name='q6' value='40,000'>40,000 years<br>
-            </form>
-        </section>
+        <div class="questionAnswerForm"></div>
+        
     </main>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" type="text/javascript"></script>
+    <script src="script.js"></script>
 
 </body>
 

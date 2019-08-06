@@ -14,10 +14,39 @@ function startQuiz() {
 
 function generateQuestion() {
     //creates a question in an HTML form format
+    console.log('generate question function test');
+    if (questionNumber < STORE.length) {
+        return `
+            <div class="question-${questionNumber}">
+                <h2>${STORE[questionNumber].question}</h2>
+                <form>
+                    <fieldset>
+                    <label class="answerChoice">
+                    <input type='radio' name="answer" value="${STORE[questionNumber].answers[0]}">
+                    <span>${STORE[questionNumber].answers[0]}</span>;
+                    </label>
+
+                    <label class="answerChoice">
+                    <input type='radio' name="answer" value="${STORE[questionNumber].answers[1]}">
+                    <span>${STORE[questionNumber].answers[1]}</span>;
+                    </label>
+                    
+                    <button type="submit" class="submitButton">Submit</button>
+                    </fieldset>
+                </form>
+            </div>`;
+    } else {
+        //When the loop runs out of iterations it needs to display results and the option to restart
+        renderResults();
+        restartQuiz();
+        $('.questionNumber').text(6);
+    }
 };
 
 function renderQuestion () {
     //renders the generated question in the DOM
+    console.log('render question function test');
+    $('.questionAnswerForm').html(generateQuestion());
 };
 
 function updateQuestionNumber() {

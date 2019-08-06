@@ -55,6 +55,9 @@ function updateQuestionNumber() {
 
 function changeScore() {
     //increment score
+    score ++;
+    $('.score').text(score);
+      
 };
 
 function userSelectAnswer() {
@@ -86,7 +89,7 @@ function ifWrongAnswer() {
             </div>
             <div class='correct-answer'>
                 <h2>Huston we have a problem</h2>
-                <h3>${STORE[questionNumber].correctAnswer}</h3>
+                <h3>${STORE[questionNumber].wrongAnswerFeedback}<h3>
             <button type=button class="nextButton">Next</button>
         </div>`);
     
@@ -105,13 +108,27 @@ function ifRightAnswer() {
             <div class='correct-answer'>
                 <h2>Affrimative</h2>
                 <h3>${STORE[questionNumber].correctAnswer}</h3>
+                <h4>${STORE[questionNumber].correctAnswerFeedback}</h4>
             <button type=button class="nextButton">Next</button>
         </div>`);
+    changeScore();
 };
+
+
+function changeQuestionNumber() {
+    questionNumber ++;
+    $('.questionNumber').text(questionNumber+1);
+};
+
 
 function renderNextQuestion() {
     //what happens when the user clicks next
     console.log('renderNextQuestion function test');
+    $('main').on('click', '.nextButton', function (event) {
+        changeQuestionNumber();
+        renderQuestion();
+        userSelectAnswer();
+      });
 };
 
 function renderResults() {
@@ -120,6 +137,7 @@ function renderResults() {
 
 function restartQuiz() {
     //user can click to restart the quiz
+
 };
 
 function createQuiz () {

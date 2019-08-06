@@ -107,7 +107,6 @@ function ifRightAnswer() {
             </div>
             <div class='correct-answer'>
                 <h2>Affrimative</h2>
-                <h3>${STORE[questionNumber].correctAnswer}</h3>
                 <h4>${STORE[questionNumber].correctAnswerFeedback}</h4>
             <button type=button class="nextButton">Next</button>
         </div>`);

@@ -9,7 +9,7 @@ const STORE = [
         correctAnswerFeedback:"That's why the sun rises in the East!",
         wrongAnswerFeedback:"The Earth spins from West to East which is why the sun rises in the East!",
         icon:'',
-        alt:'' 
+        alt:''
     },
     {
         question:'Right now which planet is further from the sun?',

@@ -5,7 +5,7 @@ let score = 0;
 
 function startQuiz() {
     //creates a functional start button on the home page that removes that page
-    console.log('startQuiz function test');
+    //console.log('startQuiz function test');
     $('.quiz-start').on('click', '.start-button', function (event) {
         $('.quiz-start').remove();
         $('.questionAnswerForm').css('display', 'block');
@@ -14,7 +14,7 @@ function startQuiz() {
 
 function generateQuestion() {
     //creates a question in an HTML form format
-    console.log('generate question function test');
+    //console.log('generate question function test');
     if (questionNumber < STORE.length) {
         return `
             <div class="question-${questionNumber}">
@@ -31,7 +31,7 @@ function generateQuestion() {
                     <span>${STORE[questionNumber].answers[1]}</span>;
                     </label>
                     
-                    <button type="submit" class="submitButton">Submit</button>
+                    <button type="submit" class="submitButton">Initiate</button>
                     </fieldset>
                 </form>
             </div>`;
@@ -45,7 +45,7 @@ function generateQuestion() {
 
 function renderQuestion () {
     //renders the generated question in the DOM
-    console.log('render question function test');
+    //console.log('render question function test');
     $('.questionAnswerForm').html(generateQuestion());
 };
 
@@ -59,18 +59,35 @@ function changeScore() {
 
 function userSelectAnswer() {
     //user selects answer on submit run user feedback
+    console.log('userSelectAnswer test');
+    $('form').on('submit', function(event) {
+        event.preventDefault();
+        let correctAnswer = `${STORE[questionNumber].correctAnswer}`;
+        let selected = $('input:checked');
+        let answer = selected.val();
+        if(answer === correctAnswer) {
+            selected.parent().addClass('correct');
+            ifRightAnswer();
+        } else {
+            selected.parent().addClass('wrong');
+            ifWrongAnswer();
+        }
+    });
 };
 
 function ifWrongAnswer() {
     //user feedback for correct answer
+    console.log('ifWrongAnswer function test');
 };
 
 function ifRightAnswer() {
     //user feedback for wrong answer
+    console.log('ifRightAsnwer function test');
 };
 
 function renderNextQuestion() {
     //what happens when the user clicks next
+    console.log('renderNextQuestion function test');
 };
 
 function renderResults() {

@@ -126,7 +126,7 @@ function renderNextQuestion() {
         renderQuestion();
         userSelectAnswer();
       });
-};
+    };
 
 function renderResults() {
     //when quiz is over this is the html for the page

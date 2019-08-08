@@ -20,19 +20,19 @@ function generateQuestion() {
             <div class="question-${questionNumber}">
                 <h2>${STORE[questionNumber].question}</h2>
                 <form>
-                    <fieldset>
+                    
                     <label class="answerChoice">
                     <input type='radio' name="answer" value="${STORE[questionNumber].answers[0]}">
-                    <span>${STORE[questionNumber].answers[0]}</span>;
+                    <span>${STORE[questionNumber].answers[0]}</span>
                     </label>
 
                     <label class="answerChoice">
                     <input type='radio' name="answer" value="${STORE[questionNumber].answers[1]}">
-                    <span>${STORE[questionNumber].answers[1]}</span>;
+                    <span>${STORE[questionNumber].answers[1]}</span>
                     </label>
                     
                     <button type="submit" class="submitButton">Initiate</button>
-                    </fieldset>
+                    
                 </form>
             </div>`;
     } else {

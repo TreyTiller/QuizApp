@@ -22,12 +22,12 @@ function generateQuestion() {
                 <form>
                     
                     <label class="answerChoice">
-                    <input type='radio' name="answer" value="${STORE[questionNumber].answers[0]}">
+                    <input type='radio' name="answer" value="${STORE[questionNumber].answers[0]}" required>
                     <span>${STORE[questionNumber].answers[0]}</span>
                     </label>
 
                     <label class="answerChoice">
-                    <input type='radio' name="answer" value="${STORE[questionNumber].answers[1]}">
+                    <input type='radio' name="answer" value="${STORE[questionNumber].answers[1]}" required>
                     <span>${STORE[questionNumber].answers[1]}</span>
                     </label>
                     

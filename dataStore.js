@@ -42,8 +42,8 @@ const STORE = [
             'Andromeda'
         ],
         correctAnswer:'Andromeda',
-        correctAnswerFeedback:"The Crab Nebula is actually remanent of a super nova. Andromeda is located 2.537 million light years form Earth! OOOOOO WEEEE that's far!",
-        wrongAnswerFeedback:"The Crab Nebula is actually remanent of a super nova. Andromeda is located 2.537 million light years form Earth! OOOOOO WEEEE that's far!",
+        correctAnswerFeedback:"The Crab Nebula is actually remanent of a super nova. Andromeda is located 2.537 million light years from Earth! OOOOOO WEEEE that's far!",
+        wrongAnswerFeedback:"The Crab Nebula is actually remanent of a super nova. Andromeda is located 2.537 million light years from Earth! OOOOOO WEEEE that's far!",
         icon:'IMG/icons8-comet-500.png',
         alt:'Comet' 
     },
@@ -54,8 +54,8 @@ const STORE = [
             '2004'
         ],
         correctAnswer:'2004',
-        correctAnswerFeedback:"In 2003 Opprotunity was launched to Mars. 6 months later in 2004 it landed safetly on our neightboring planet. Opprotunity's mission finally came to an end in 2018, 15 years after it's departure.",
-        wrongAnswerFeedback:"In 2003 Opprotunity was launched to Mars. 6 months later in 2004 it landed safetly on our neightboring planet. Opprotunity's mission finally came to an end in 2018, 15 years after it's departure.",
+        correctAnswerFeedback:"In 2003 Opportunity was launched to Mars. 6 months later in 2004 it landed safely on our neighboring planet. Opportunity's mission finally came to an end in 2018, 15 years after it's departure.",
+        wrongAnswerFeedback:"In 2003 Opportunity was launched to Mars. 6 months later in 2004 it landed safely on our neighboring planet. Opportunity's mission finally came to an end in 2018, 15 years after it's departure.",
         icon:'IMG/icons8-moon-rover-500.png',
         alt:'Moon Rover' 
     },

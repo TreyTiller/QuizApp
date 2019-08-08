@@ -136,7 +136,7 @@ function renderResults() {
             <div class='results-feedback'>
                 <h3></h3>
                 <img src="IMG/icons8-nasa-500.png" alt="Nasa logo"/>
-                <p>Niel Armstrong... Is that you? Look at you go you space expert!</p>
+                <p>Neil Armstrong... Is that you? Look at you go you space expert!</p>
                 <p>You got ${score} / 6</p>
                 <button class="restart-button">Restart Quiz</button>
             </div>

@@ -135,9 +135,9 @@ function renderResults() {
         $('.questionAnswerForm').html(`
             <div class='results-feedback'>
                 <h3></h3>
-                <img/>
-                <p>You got ${score} / 6</p>
+                <img src="IMG/icons8-nasa-500.png" alt="Nasa logo"/>
                 <p>Niel Armstrong... Is that you? Look at you go you space expert!</p>
+                <p>You got ${score} / 6</p>
                 <button class="restart-button">Restart Quiz</button>
             </div>
         `);
@@ -145,9 +145,9 @@ function renderResults() {
         $('.questionAnswerForm').html(`
             <div class='results-feedback'>
                 <h3></h3>
-                <img/>
-                <p>You got ${score} / 6</p>
+                <img src="IMG/icons8-astronaut-500.png" alt="astronaut"/>
                 <p>You skimmed through cadet... you might need some more training.</p>
+                <p>You got ${score} / 6</p>
                 <button class="restart-button">Restart Quiz</button>
             </div>
         `);
@@ -155,9 +155,9 @@ function renderResults() {
         $('.questionAnswerForm').html(`
             <div class='results-feedback'>
                 <h3></h3>
-                <img/>
-                <p>You got ${score} / 6</p>
+                <img src="IMG/icons8-martian-500.png" alt="martian"/>
                 <p>Maybe steer clear of the final frontier.</p>
+                <p>You got ${score} / 6</p>
                 <button class="restart-button">Relaunch</button>
             </div>
         `);

@@ -99,12 +99,13 @@ Images and Icons Needed:
             
 Feedback:
 
-        3 or less out of 6:
-            -
-        5 or less out of 6:
-            -
-        6 out of 6:
-            -
+        3 or more out of 6:
+            - "You skimmed through cadet... you might need some more training."
+        5 or more out of 6:
+            - "Niel Armstrong... Is that you? Look at you go you space expert!"
+        2 or less:
+            - "Steer clear of the final frontier"
+        
         
         
 

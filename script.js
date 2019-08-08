@@ -49,9 +49,9 @@ function renderQuestion () {
     $('.questionAnswerForm').html(generateQuestion());
 };
 
-function updateQuestionNumber() {
+//function updateQuestionNumber() {
     //increment question number
-};
+//};
 
 function changeScore() {
     //increment score
@@ -92,8 +92,6 @@ function ifWrongAnswer() {
                 <h3>${STORE[questionNumber].wrongAnswerFeedback}<h3>
             <button type=button class="nextButton">Next</button>
         </div>`);
-    
-    
 };
 
 function ifRightAnswer() {
@@ -139,11 +137,11 @@ function renderResults() {
                 <h3></h3>
                 <img/>
                 <p>You got ${score} / 6</p>
-                <p>Niel Armstrong... Is that you? Look at you go you space explorer!</p>
+                <p>Niel Armstrong... Is that you? Look at you go you space expert!</p>
                 <button class="restart-button">Restart Quiz</button>
             </div>
         `);
-    } else if (score > 3 && score < 5) {
+    } else if (score > 2 && score < 5) {
         $('.questionAnswerForm').html(`
             <div class='results-feedback'>
                 <h3></h3>

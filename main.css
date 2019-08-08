@@ -10,10 +10,98 @@
 
 body {
     font-family: "Inconsolata", Arial, Helvetica, sans-serif;
+    /*background: url('IMG/Earth.jpg') fixed;*/
+    background-color: black;
+    color: whitesmoke;
+    text-transform: uppercase;
 }
 
 
+
+
+
+
+
+
 /*Header Styling*/
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+
+header {
+    margin-bottom: 115px;
+    align-items: center;
+
+}
+
+.logo{
+    height: 125px;
+    width: 125px
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+
+
+
+
+
+
+
+/*Quiz start screen styling*/
+
+.quiz-start{
+    display: block;
+    text-align: center;
+    /*width: 50%;*/
+    margin: auto;
+    border: white 3px solid;
+    border-radius: 5px;
+    padding: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.start-button {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: 10px;
+    font-family: "Inconsolata",sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+.start-button:hover {
+    background-color: rgba(61, 58, 58, 0.89);
+    color:white;
+    letter-spacing: 2px;
+    transition: all 0.3 ease;
+}
+
+h1 {
+padding-bottom: 50px;
+}
+
+h2 {
+padding-bottom: 30px;
+}
+
+
+/* Question answer form styling*/
+
+
 
 
 

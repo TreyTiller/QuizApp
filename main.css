@@ -89,6 +89,7 @@ header {
     color:white;
     letter-spacing: 2px;
     transition: all 0.3 ease;
+    cursor: pointer;
 }
 
 h1 {
@@ -121,6 +122,7 @@ padding-bottom: 30px;
 .answerChoice:hover {
     letter-spacing: 2px;
     transition: all 0.3s ease;
+    cursor: pointer;
 }
 
 .submitButton {
@@ -143,6 +145,7 @@ padding-bottom: 30px;
     color:white;
     letter-spacing: 2px;
     transition: all 0.3 ease;
+    cursor: pointer;
 }
 
 
@@ -174,6 +177,7 @@ h4 {
     color:white;
     letter-spacing: 2px;
     transition: all 0.3 ease;
+    cursor: pointer;
 }
 
 .icon img {
@@ -206,6 +210,7 @@ p {
     color:white;
     letter-spacing: 2px;
     transition: all 0.3 ease;
+    cursor: pointer;
 }
 
 
@@ -298,6 +303,7 @@ p {
         color:white;
         letter-spacing: 2px;
         transition: all 0.3 ease;
+        cursor: pointer;
     }
     
     h1 {
@@ -327,6 +333,7 @@ p {
     .answerChoice:hover {
         letter-spacing: 2px;
         transition: all 0.3s ease;
+        cursor: pointer;
     }
     
     .submitButton {
@@ -349,6 +356,7 @@ p {
         color:white;
         letter-spacing: 2px;
         transition: all 0.3 ease;
+        cursor: pointer;
     }
     
     
@@ -380,6 +388,7 @@ p {
         color:white;
         letter-spacing: 2px;
         transition: all 0.3 ease;
+        cursor: pointer;
     }
     
     .icon img {
@@ -412,6 +421,7 @@ p {
         color:white;
         letter-spacing: 2px;
         transition: all 0.3 ease;
+        cursor: pointer;
     }
     
     

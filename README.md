@@ -1,0 +1,109 @@
+These are the layout notes, user stories, and requirments for this project. The goal was to make an interactive web app that
+tests the skills of the user and their knowledge of space
+
+RIQUIREMENTS:
+
+The following requirements cover what the app must do, from the user's perspective.
+
+The starting screen should have a button that users can click to start the quiz.
+Users should be prompted through a series of at least 5 multiple choice questions that they can answer.
+Users should be asked questions 1 after the other.
+Users should only be prompted with 1 question at a time.
+Users should not be able to skip questions.
+Users should also be able to see which question they're on (for instance, "7 out of 10") and their current score 
+("5 correct, 2 incorrect").
+Upon submitting an answer, users should:
+receive textual feedback about their answer. If they were incorrect, they should be told the correct answer.
+be moved onto the next question (or interact with an element to move on).
+Users should be shown their overall score at the end of the quiz. In other words, how many questions they got right 
+out of the total questions asked.
+Users should be able to start a new quiz.
+
+TECHNICAL REQUIREMENTS:
+
+Your quiz app must:
+
+Render answer choices in a <form>.
+Use semantic HTML, along with CSS and jQuery.
+Follow a11y best practices.
+Refer back to the checkpoints on accessibility and forms for help.
+Use responsive design.
+Be fully usable by keyboard (which will be easy enough if you start with a form).
+Process requirements
+Before you dive into the app, you'll need to:
+
+gather content for your app. That means typing up the questions you'll ask and gathering any images or icons you'll need.
+think about the user experiences outlined above and how your design must make them possible.
+design your app using HTML wireframes, which are HTML- (and minimal CSS-) only versions of the different screens in your app.
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+
+PROJECT PLAN:
+
+
+Questions:
+        1.  Which way does Earth spin?
+            a. east to west     b. west to east     ------> That's why the sun rises in the east.  //COOL PICTURE OF EARTH
+
+        2. Right now which planet is further from the sun?
+            a. Pluto            b. Neptune           ------> Between February 1979 and February 1999 Pluto's elliptical orbit brought it closer to the sun that Neptune. It will cross over again in just over 200 years from now. //SOLAR SYSTEM PHOTO
+        
+        3. Which year was the first exoplanet discovered?
+            a. 1995             b. 2010              ------> 51 Pegasi b AKA 'Bellerophon' was discovered in 1995 by Michael Mayor and Didier Queloz from 50 light years away!  //PHOTO OF PEGASI 51
+        
+        4. Which galaxy is further away from Earth?
+            a. Andromeda   b. Crab Nebula           -------> The Crab Nebula is a remanent of a super nova. Andromeda is located 2.537 million light years form Earth! OOOOOO WEEEE that's far! //PHOTO OF ANDROMEDA
+        
+        5. Which year did the Opportunity rover land on Mars?
+            a. 1998             b. 2004             ------> In 2004 Opprotunity was launched to Mars. It's mission finally came to an end 15 years after it's departure in 2018. This is its final transmitted photo from the red planet //INCLUDE THE FINAL PANORAMA FROM IT'S FEED
+        
+        6.When will the Voyager 1 spacecraft pass by another star system?
+            a. 400 years        b. 40,000 years     ------> Voyager 1 is the furthest human-made object from Earth, and it's just left the solar system. It's next stop is a star called AC +79 3888 40,000 years from now. //GIF OF VOYAGER 1'S LAUNCH
+
+User Stories:
+        1. User should be able to click start on the home screen to begin the quiz.
+        2. Users should be prompeted with one question at a time.
+        3. Each question should present the correct answer and information of why.
+        4. User should be informed of what question they're on and what they're current score is. 
+        5. Once completed users should see a summary of they're final score and able to start over again.
+
+Images and Icons Needed:
+        Home: 
+            - Background-Img: Cool space Image (possibly a list of them that randomize when the page loads)
+            - Cool rocket Icon or spacesuit Icon
+            - Spacey font. Something like terminal text
+        1:
+            - Background-Img: Cool space Image (possibly a list of them that randomize when the page loads)
+            - Picture of Earth
+        2:
+            - Background-Img: Cool space Image (possibly a list of them that randomize when the page loads)
+            - Solar system photo
+        3:
+            - Background-Img: Cool space Image (possibly a list of them that randomize when the page loads)
+            - Photo of Pegasi 51 or the telescope they might have used
+        4:
+            - Background-Img: Cool space Image (possibly a list of them that randomize when the page loads)
+            - Photo of Andromeda
+        5:
+            - Background-Img: Cool space Image (possibly a list of them that randomize when the page loads)
+            - Final panorama from its feed
+        6:
+            - Background-Img: Cool space Image (possibly a list of them that randomize when the page loads)
+            - gif of Voyager 1 launch
+        Results: 
+            - Background-Img: Cool space Image (possibly a list of them that randomize when the page loads)
+            - Spaceman icon
+            - Rocket launch icon
+            - Spaceman helment icon
+            - Meteor icon
+            
+            
+Feedback:
+
+        3 or more out of 6:
+            - "You skimmed through cadet... you might need some more training."
+        5 or more out of 6:
+            - "Niel Armstrong... Is that you? Look at you go you space expert!"
+        2 or less:
+            - "Steer clear of the final frontier"

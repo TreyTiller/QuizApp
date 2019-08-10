@@ -5,16 +5,15 @@ let score = 0;
 
 function startQuiz() {
     //creates a functional start button on the home page that removes that page
-    //console.log('startQuiz function test');
     $('.quiz-start').on('click', '.start-button', function (event) {
         $('.quiz-start').remove();
         $('.questionAnswerForm').css('display', 'block');
+        $('.questionNumber').text(questionNumber+1);
     });
 };
 
 function generateQuestion() {
     //creates a question in an HTML form format
-    //console.log('generate question function test');
     if (questionNumber < STORE.length) {
         return `
             <div class="question-${questionNumber}">
@@ -45,13 +44,8 @@ function generateQuestion() {
 
 function renderQuestion () {
     //renders the generated question in the DOM
-    //console.log('render question function test');
     $('.questionAnswerForm').html(generateQuestion());
 };
-
-//function updateQuestionNumber() {
-    //increment question number
-//};
 
 function changeScore() {
     //increment score
@@ -62,7 +56,6 @@ function changeScore() {
 
 function userSelectAnswer() {
     //user selects answer on submit run user feedback
-    console.log('userSelectAnswer test');
     $('form').on('submit', function(event) {
         event.preventDefault();
         let correctAnswer = `${STORE[questionNumber].correctAnswer}`;
@@ -80,7 +73,6 @@ function userSelectAnswer() {
 
 function ifWrongAnswer() {
     //user feedback for correct answer
-    console.log('ifWrongAnswer function test');
     let correctAnswer=`${STORE[questionNumber].correctAnswer}`;
     $('.questionAnswerForm').html(`
         <div class='correct-feedback'>
@@ -96,7 +88,6 @@ function ifWrongAnswer() {
 
 function ifRightAnswer() {
     //user feedback for wrong answer
-    console.log('ifRightAsnwer function test');
     let correctAnswer=`${STORE[questionNumber].correctAnswer}`;
     $('.questionAnswerForm').html(`
         <div class='correct-feedback'>
@@ -120,7 +111,6 @@ function changeQuestionNumber() {
 
 function renderNextQuestion() {
     //what happens when the user clicks next
-    console.log('renderNextQuestion function test');
     $('main').on('click', '.nextButton', function (event) {
         changeQuestionNumber();
         renderQuestion();

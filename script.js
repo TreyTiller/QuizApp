@@ -80,7 +80,7 @@ function ifWrongAnswer() {
                 <img src="${STORE[questionNumber].icon}" alt="${STORE[questionNumber].alt}"/>
             </div>
             <div class='correct-answer'>
-                <h2>Huston we have a problem</h2>
+                <h2>Houston we have a problem</h2>
                 <h3>${STORE[questionNumber].wrongAnswerFeedback}<h3>
             <button type=button class="nextButton">Next</button>
         </div>`);
@@ -95,7 +95,7 @@ function ifRightAnswer() {
                 <img src="${STORE[questionNumber].icon}" alt="${STORE[questionNumber].alt}"/>
             </div>
             <div class='correct-answer'>
-                <h2>Affrimative</h2>
+                <h2>Affirmative</h2>
                 <h4>${STORE[questionNumber].correctAnswerFeedback}</h4>
             <button type=button class="nextButton">Next</button>
         </div>`);

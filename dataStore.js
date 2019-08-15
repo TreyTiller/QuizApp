@@ -66,8 +66,8 @@ const STORE = [
             '400 years'
         ],
         correctAnswer:'40,000 years',
-        correctAnswerFeedback:"Launched in 1977 Voyager 1 is the furthest human-made object from Earth, and it's just left the solar system. It's next stop is a star called AC +79 3888 40,000 years from now.",
-        wrongAnswerFeedback:"Launched in 1977 Voyager 1 is the furthest human-made object from Earth, and it's just left the solar system. It's next stop is a star called AC +79 3888 40,000 years from now.",
+        correctAnswerFeedback:"Launched in 1977 Voyager 1 is the furthest human-made object from Earth, and it's just left the solar system. Its next stop is a star called AC +79 3888 40,000 years from now.",
+        wrongAnswerFeedback:"Launched in 1977 Voyager 1 is the furthest human-made object from Earth, and it's just left the solar system. Its next stop is a star called AC +79 3888 40,000 years from now.",
         icon:'IMG/icons8-rocket-500.png',
         alt:'Rocket Ship' 
     },
